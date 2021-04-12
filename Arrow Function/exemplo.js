@@ -5,7 +5,7 @@
 // E as chaves: o bloco de código que representa o corpo da função.
 
 
-// Funcao normal
+// Função normal
 
 function soma(a, b) {
     console.log(a + b);
