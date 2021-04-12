@@ -12,3 +12,6 @@ function sub(a, b, inverter = false) {
         console.log(a - b)
     }
 }
+
+soma();
+sub();
