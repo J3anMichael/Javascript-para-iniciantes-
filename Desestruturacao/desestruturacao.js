@@ -40,7 +40,7 @@ console.log(nome);
 console.log(curso);
 console.log(faculdade);
 
-// Output: Jean Michael Developer Estacio Sistemas de informacao
+// Output: Jean Michael Developer Estacio Sistemas de informação
 
 
 // OBS 
