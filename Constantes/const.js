@@ -1,4 +1,4 @@
-// Examplos de Variaveis: Como o proprio node ja diz, as variaveis podem variar o valor.
+// Exemplos de variáveis: Como o proprio node ja diz, pois as variaveis podem variar o valor.
 
 var nome = "Jean";
 
@@ -8,7 +8,7 @@ nome = 14
 
 
 // Constantes ECMAS6 
-// Nao podem ter seus valores alterados, pois ao contrario dos valores variaveis, a constante deve ter seu valor unico.
+// Não podem ter seus valores alterados, pois ao contrario dos valores variáveis, a constante deve ter seu valor único.
 
 const nome = "Jean";
 
@@ -17,7 +17,7 @@ nome = "Michael" // Errado
 nome = 14 // Errado //
 
 // Quando usar constantes?
-// Quando for chamar modulos no Node
+// Quando for chamar módulos no Node
 
 const express = require("express");
 
