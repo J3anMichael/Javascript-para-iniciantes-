@@ -6,9 +6,9 @@ var Jean = {
 
 var David = {
     nome: "David Silva",
-    faculdade: "Uni Brasil",
-    salario: 1300,
-} // Verificar(); => False;
+    faculdade: "Uni Brasil", 
+    salario: 1300, 
+} // Verificar(); => False; 
 
 var Erik = {
     nome: "Erik Costa",
@@ -19,7 +19,7 @@ var Erik = {
 // Array
 var user = [Jean, David, Erik];
 
-users.find(user => user.nome === "Jean Michael" ); // Verificar();
+user.find(user => user.nome === "Jean Michael" ); // Verificar();
 
 console.log(user); // Output: Jean Michael Estacio 1500
 
