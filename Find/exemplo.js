@@ -1,4 +1,6 @@
-// O método find () é usado para obter o valor do primeiro elemento na matriz que satisfaça a condição fornecida. Ele verifica todos os elementos do array e qualquer que seja o primeiro elemento que satisfaça a condição, ele será impresso. 
+// O método find () é usado para obter o valor do primeiro elemento na matriz
+// que satisfaça a condição fornecida. Ele verifica todos os elementos do array e
+// qualquer que seja o primeiro elemento que satisfaça a condição, ele será impresso. 
 
 
 
