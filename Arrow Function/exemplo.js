@@ -18,7 +18,8 @@
 
 
 
-// Função normal
+// Função normal sem Arrow function
+
 
 function soma(a, b) {
     console.log(a + b);
@@ -28,7 +29,7 @@ var mult = function(a, b){
     console.log(a * b);
 }
 
-// Arrow function
+// Com Arrow function
 
 var mult3 = a => {
     console.log(a*2);
@@ -51,3 +52,18 @@ const person = () => ({
         age: 24,
         college: "Estacio"
     });
+
+
+// com this
+
+const carro = {
+    modelo: "Ka", 
+    fabricante: "Ford",
+    nomeCompleto: function(){
+        return ´${this.fabricante} ${this.modelo}´
+    }
+};
+    
+    console.log(carro.nomeCompleto());
+
+// output: Ford Ka 
