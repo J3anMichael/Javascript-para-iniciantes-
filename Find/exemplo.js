@@ -73,17 +73,17 @@ console.log(found);
 // Outro exemplo
 
 
-const carro = {
+const carro1 = {
  marca: "audi",
     ano: 2021,
     cor: "prata",
 }
-const carro = {
+const carro2 = {
  marca: "bmw",
     ano: 2020,
     cor: "preto",
 }
-const carro = {
+const carro3 = {
  marca: "ford",
     ano: 2013,
     cor: "vermelho",
