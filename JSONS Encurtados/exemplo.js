@@ -17,7 +17,8 @@ console.log(user);
 var user = {
     nome,
     idade,
-    empresa
+    empresa,
+    endereço
 }
 
 console.log(user);
