@@ -34,7 +34,7 @@ const verao = false;
 
   var semafaro = "verde";
 
-  if(semafaro ==verde) {
+  if(semafaro == "verde") {
       console.log("pode passar")
   } else {
     console.log("pare!");
@@ -56,4 +56,35 @@ if (Mask === 'The Mask') {
   console.log("Someeeebody stooop me")
 } else {
   console.log("Did you miss me?.......I guess not")
+}
+
+//output: Someeeebody stooop me
+    
+    
+    
+//////////////////////////////////////////////////////////
+    
+    var CPF = "123456789-98";
+    
+    if(CPF ===  "123456789-98"){
+        console.log("Bem vindo Jubscreito!")
+    } else {
+     console.log("Erro, CPF incorreto!")   
+    };
+    
+    //output: Bem vindo Jubscreito!
+    
+    // ou
+    
+      var CPF = "123456789-88";
+    
+    if(CPF ===  "123456789-98"){
+        console.log("Bem vindo Jubscreito!")
+    } else {
+     console.log("Erro, CPF incorreto!")   
+    };
+    
+    //output: Erro, CPF incorreto!
+    
+    
 }
