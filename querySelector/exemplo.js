@@ -1,4 +1,8 @@
+// element = document.querySelector(selectors);
+
 //Retorna o primeiro elemento dentro do documento (usando ordenação em profundidade, pré-ordenada e transversal dos nós do documento) que corresponde ao grupo especificado de seletores.
+
+// Nesse exemplo vamos soltar um alert na tela quando você apertar o botão "Click here".
 
 <body>
 
@@ -16,7 +20,7 @@ Click Here
 
 function myFunction() {
 var text = document.querySelector("#texto").value;
-window.alert("Welcome")
+window.alert("Welcome!")
 };
 
 </script>
