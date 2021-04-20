@@ -19,3 +19,5 @@ Arrow Function
 Find
 
 Template literals
+
+QuerySelector
