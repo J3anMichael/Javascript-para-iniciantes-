@@ -85,6 +85,18 @@ if (Mask === 'The Mask') {
     };
     
     //output: Erro, CPF incorreto!
-    
-    
+   
 }
+
+
+var Take = true;
+
+if(Take === true){
+    console.log("Take the chance!")
+} else {
+ console.log("Lose the chance!")   
+
+    // output: Take the chance!
+}
+
+
