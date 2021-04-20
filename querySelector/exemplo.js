@@ -26,3 +26,37 @@ window.alert("Welcome!")
 </script>
 
 </body>
+
+
+// ====================================================
+
+// Com EventListener
+
+
+<body>
+
+
+<div id="mainContent">
+  
+ <button id="Button">click me</button>
+
+</div>
+
+
+<script>
+   
+ var Button = document.querySelector("#Button");
+ 
+Button.addEventListener('click', displayDialog, false);
+ 
+function displayDialog(e) {
+  
+window.alert("You clicked me!");
+  
+ }
+// output: You clicked me!
+        
+
+</script>
+
+</body>
