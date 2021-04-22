@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo getElementById</title>
+  <script>
+  function mudarCor(novaCor) {
+    var elemento = document.getElementById("on-off");
+    elemento.style.backgroundColor = novaCor;
+  }
+  </script>
+</head>
+<body id="on-off">
+  <p>Apaga essa luz, eu quero dormir!</p>
+  <button onclick="mudarCor('white');">Luz acesa</button>
+  <button onclick="mudarCor('black');">Luz apagada</button>
+</body>
+</html>
