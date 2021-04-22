@@ -21,3 +21,5 @@ Find
 Template literals
 
 QuerySelector
+
+getElementById
