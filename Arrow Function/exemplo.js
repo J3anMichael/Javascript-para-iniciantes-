@@ -15,8 +15,10 @@
 5- =>
 6- {} 
 
-
-
+const num = (numero1, numero2) => {
+ return numero1 + numero2;   
+}
+console.log(num(25,25));
 
 // Função normal sem Arrow function
 
@@ -52,6 +54,7 @@ const person = () => ({
         age: 24,
         college: "Estacio"
     });
+
 
 
 // com this
