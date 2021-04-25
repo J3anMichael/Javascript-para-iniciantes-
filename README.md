@@ -12,6 +12,8 @@ JSONs encurtados
 
 Operador Spread
 
+Ternary Operator
+
 Desestruturação
 
 Arrow Function
@@ -19,6 +21,7 @@ Arrow Function
 Find
 
 Template literals
+
 
 
 # EVENTOS
