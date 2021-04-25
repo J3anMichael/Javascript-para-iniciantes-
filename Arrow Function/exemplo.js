@@ -70,3 +70,16 @@ const carro = {
     console.log(carro.nomeCompleto());
 
 // output: Ford Ka 
+
+
+
+const formatName = user => ({
+
+        firstName: `${user.firstName} `,
+        lastName: `${user.lastName}`
+    }); 
+    console.log(formatName({
+        firstName:"Jean",
+    lastName:"Michael"
+    }));
+// output: { firstName: 'Jean ', lastName: 'Michael' }
