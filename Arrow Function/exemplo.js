@@ -98,3 +98,17 @@ console.log(FormatName({
 firstName: "Jean",
  lastName: "Michael"
 }));
+
+
+
+// ==================================================
+
+const ModelCar = car => ({
+carModel: `${car.carModel}`,
+carYear: `${car.carYear}`
+});
+
+console.log(ModelCar({
+carModel: "BMW",
+carYear: 2018
+}));
