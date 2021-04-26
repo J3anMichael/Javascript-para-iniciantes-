@@ -29,3 +29,12 @@ console.log(resultado)
 
 
 
+// =================================================================
+
+
+const car = 50000;
+let price = car > 51000 ? "Lets buy the car" : "We cant buy this car";
+
+console.log(price);
+
+
