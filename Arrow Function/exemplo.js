@@ -83,3 +83,18 @@ const formatName = user => ({
     lastName:"Michael"
     }));
 // output: { firstName: 'Jean ', lastName: 'Michael' }
+
+
+
+// ==================================================
+
+
+const FormatName = user => ({
+ 
+ fistName:`${user.firstName}`,
+ lastName:`${user.lastName}`
+ });
+console.log(FormatName({
+firstName: "Jean",
+ lastName: "Michael"
+}));
