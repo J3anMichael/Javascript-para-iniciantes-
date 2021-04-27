@@ -22,6 +22,7 @@ Find
 
 Template literals
 
+Map
 
 
 # EVENTOS
