@@ -12,3 +12,16 @@ function double(element, index, array){
 }
 console.log("ORIGINAL ", Numbers);
 console.log("NOVO ARRAY ", numbersDouble);
+
+
+const Numbers = [10, 20, 30, 40, 50];
+
+const numbersDouble = Numbers.map(double);
+
+function double(element, index, array){
+    return element + 10;
+}
+
+console.log(numbersDouble);
+
+// output: (5) [20, 30, 40, 50, 60]
