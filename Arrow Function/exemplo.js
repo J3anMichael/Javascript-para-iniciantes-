@@ -89,15 +89,10 @@ const formatName = user => ({
 // ==================================================
 
 
-const FormatName = user => ({
- 
- fistName:`${user.firstName}`,
- lastName:`${user.lastName}`
- });
-console.log(FormatName({
-firstName: "Jean",
- lastName: "Michael"
-}));
+const Dobrar = (x) => x * 2;
+console.log(Dobrar(6));
+
+// output: 12
 
 
 
