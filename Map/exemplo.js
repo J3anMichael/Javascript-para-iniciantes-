@@ -4,14 +4,17 @@
 
 const Numbers = [10, 20, 30, 40, 50]; // Original
 
-const numbersDouble = Numbers.map(double);
+const numbersDouble = Numbers.map(double); // double é a funcao que vamos criar para chamar nosso array modidificado
 
 
-function double(element, index, array){
-    return element * 2;
+function double(element, index, array){    // função que vai modificar nosso array
+    return element * 2;                   
 }
-console.log("ORIGINAL ", Numbers);
+console.log("ORIGINAL ", Numbers); 
 console.log("NOVO ARRAY ", numbersDouble);
+
+
+// ==========================================
 
 
 const Numbers = [10, 20, 30, 40, 50];
@@ -25,6 +28,17 @@ function double(element, index, array){
 console.log(numbersDouble);
 
 // output: (5) [20, 30, 40, 50, 60]
+
+
+
+const arr4 = [1, 2, 3, 4, 5];  // original
+
+const double2 = arr4.map(double3) // double3 é a funcao que vamos criar para chamar nosso array modidificado
+
+function double3(element, index, array){
+return element - 1; // função que vai modificar nosso array
+};
+console.log(double2); 
 
 
 // =======================================
