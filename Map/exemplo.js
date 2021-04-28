@@ -28,7 +28,7 @@ console.log(numbersDouble);
 
 
 // =======================================
-
+// Vamaos retornar os nomes
 
 const test = [{
 Nome: "Jean",
@@ -54,3 +54,29 @@ return element.Nome;
 console.log(nomes);
 
 // output: ["Jean", "Lunara", "Ahri"]
+
+// ============================================
+// Vamos retornar os Sobrenomes
+
+const test2 = [{
+Nome: "Jean",
+sobrenome: "Michael",
+idade: 24
+},
+{
+Nome: "Lunara",
+sobrenome: "Abreu",
+idade: 28
+},
+{
+Nome: "Ahri",
+sobrenome: "Abreu",
+idade: 1.6
+}];
+
+const lastName = test2.map(function(element, index){
+return element.sobrenome;
+});
+console.log(lastName);
+
+// output: ["Michael", "Abreu", "Abreu"]
