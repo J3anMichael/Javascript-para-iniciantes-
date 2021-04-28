@@ -25,3 +25,32 @@ function double(element, index, array){
 console.log(numbersDouble);
 
 // output: (5) [20, 30, 40, 50, 60]
+
+
+// =======================================
+
+
+const test = [{
+Nome: "Jean",
+sobrenome: "Michael",
+idade: 24
+},
+{
+Nome: "Lunara",
+sobrenome: "Abreu",
+idade: 28
+},
+{
+Nome: "Ahri",
+sobrenome: "Abreu",
+idade: 1.6
+}];
+
+const nomes = test.map(function(element, index){
+return element.Nome; 
+});
+
+
+console.log(nomes);
+
+// output: ["Jean", "Lunara", "Ahri"]
