@@ -94,3 +94,22 @@ return element.sobrenome;
 console.log(lastName);
 
 // output: ["Michael", "Abreu", "Abreu"]
+
+
+
+
+const lol = [{
+adc: "Ezreal",
+jungle: "Master yi",
+top: "Darius",
+support: "Lux"
+}];
+
+
+const champ = lol.map(function(element, index){
+return element.support
+});
+
+console.log(champ)
+
+// output: Lux
