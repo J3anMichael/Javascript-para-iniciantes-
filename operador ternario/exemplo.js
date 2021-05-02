@@ -46,3 +46,5 @@ const dono = "Jean";
 const prop = dono ? "verdadeiro" : "Falso";
 
 console.log(prop);
+
+// output: Verdadeiro 
