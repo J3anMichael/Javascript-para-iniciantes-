@@ -18,11 +18,13 @@ Desestruturação
 
 Arrow Function
 
+Map
+
 Find
 
-Template literals
+Filter
 
-Map
+Template literals
 
 
 # EVENTOS
