@@ -38,3 +38,11 @@ let price = car > 51000 ? "Lets buy the car" : "We cant buy this car";
 console.log(price);
 
 
+
+// =================================================================
+
+
+const dono = "Jean";
+const prop = dono ? "verdadeiro" : "Falso";
+
+console.log(prop);
