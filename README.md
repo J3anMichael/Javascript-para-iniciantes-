@@ -32,3 +32,5 @@ Template literals
 QuerySelector
 
 getElementById
+
+EventListener
