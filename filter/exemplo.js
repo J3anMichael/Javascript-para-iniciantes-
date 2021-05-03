@@ -31,3 +31,15 @@ const filtro1 = carros.filter((carro) => carro.ano === 2021);
 const filtro2 = carros.filter((carro) => carro.tipo.includes("Luxo"));
 
 console.log(filtro2);
+
+
+// ====================================================================
+
+const cursos = [
+    {curso: "Sistemas de Informacao", faculdade: "Estacio", modalidade: "EAD", valor: 278},
+    {curso: "Direito", faculdade: "UniBrasil", modalidade: "Presencial", valor: 1500},
+    {curso: "Ed Fisica", faculdade: "PUCPR", modalidade: "EAD", valor: 200}
+];
+const details = cursos.filter((about) => about.curso.includes("Ed"));
+
+console.log(details);
