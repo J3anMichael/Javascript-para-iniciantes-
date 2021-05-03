@@ -43,3 +43,16 @@ const cursos = [
 const details = cursos.filter((about) => about.curso.includes("Ed"));
 
 console.log(details);
+
+// =======================================================================
+
+
+const endereco = [
+    {pais: "Brasil", cidade: "Curitiba", bairro: "Batel"},
+    {pais: "Irlanda", cidade: "Dublin", bairro: "D08"},
+    {pais: "Holland", cidade: "Amsterdam", bairro: "Center"}
+];
+
+const filt = endereço.filter((address) => address.cidade === Amsterdam);
+
+console.log(filt);
