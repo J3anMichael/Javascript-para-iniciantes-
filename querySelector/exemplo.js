@@ -56,7 +56,7 @@ window.alert("You clicked me!");
  }
 // output: You clicked me!
         
-
+// Link com o exemplo a baixo: https://www.freecodecamp.org/news/javascript-addeventlistener-example-code/
 </script>
 
 </body>
@@ -127,3 +127,5 @@ msg.classList.toggle('reveal');
 
 </script>  
 </body>
+
+
