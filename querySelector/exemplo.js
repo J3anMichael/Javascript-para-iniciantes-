@@ -60,3 +60,70 @@ window.alert("You clicked me!");
 </script>
 
 </body>
+
+<style>
+  
+  .wrapper{
+  position: relative;
+  top: 40vh;
+}
+#button{
+  border: 5px solid #FFAB43;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: auto;
+  background: #FF5733;
+}
+
+#button:hover{
+  background: #DFF30B;
+}
+
+#message{
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.reveal{
+  visibility: visible;
+}
+  
+</style>
+
+
+
+
+<body> 
+  
+  <div class="wraper">
+
+
+<div id="message" class="hide">
+texto qualquer texto qualquer texto qualquer
+texto qualquer texto qualquer texto qualquer 
+
+</div>
+<div id="button" >
+Click-me!
+</div>
+</div>
+
+<script>
+  
+  const msg = document.querySelector("#message");
+const btn = document.querySelector("#button");
+
+button.addEventListener('click', () => {       // função anônima (seta) que configura o código necessário para revelar / ocultar a mensagem
+msg.classList.toggle('reveal');
+});
+
+</script>  
+</body>
