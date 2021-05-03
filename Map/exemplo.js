@@ -70,6 +70,7 @@ console.log(nomes);
 // output: ["Jean", "Lunara", "Ahri"]
 
 // ============================================
+
 // Vamos retornar os Sobrenomes
 
 const test2 = [{
@@ -113,3 +114,16 @@ return element.support
 console.log(champ)
 
 // output: Lux
+
+// ==================================================
+
+const endereco = [
+    {pais: "Brasil", cidade: "Curitiba", bairro: "Batel"},
+    {pais: "Irlanda", cidade: "Dublin", bairro: "D08"},
+    {pais: "Holland", cidade: "Amsterdam", bairro: "Center"}
+];
+
+const filt = endereco.map(function(element, index, array){
+return element.pais;
+});
+console.log(filt);
