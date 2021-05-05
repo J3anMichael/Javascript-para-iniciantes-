@@ -109,3 +109,15 @@ if (preco >= 270){
   console.log("Por esse valor eu nao compro!");
 }
 
+
+// ========================================================
+
+const username = "jeanmichael1403";
+const password = "1122334455"
+
+if(username === "jeanmichael1403" && password === "1122334455"){
+console.log("Bem vindo de volta Jean!")
+} else {
+console.log("O usúario não existe, tente novamente")
+}
+// obs: mude um número no Password e veja o resultado.
