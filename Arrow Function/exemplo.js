@@ -117,3 +117,9 @@ console.log(ModelCar({
 carModel: "BMW",
 carYear: 2018
 }));
+
+// ==================================================
+
+var semafaro = (verde) === verde ? "Pode passar" : "PARE!"
+
+console.log(semafaro);
