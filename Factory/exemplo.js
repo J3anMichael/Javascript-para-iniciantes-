@@ -1,14 +1,9 @@
-
-
-
-
-
-let john = {
-    firstName: 'John',
-    lastName: 'Doe',
-    getFullName() {
-        return this.firstName + ' ' + this.lastName;
-    }
+const about = {
+firstName: "Jean",
+lastName: "Michael",
+getFullName(){
+return this.firstName + ' ' + this.lastName;
+   }
 };
 
-console.log(john.getFullName());
+console.log(about.getFullName());
