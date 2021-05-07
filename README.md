@@ -34,3 +34,7 @@ QuerySelector
 getElementById
 
 EventListener
+
+# Design Pattern
+
+Factory
