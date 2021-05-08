@@ -132,10 +132,14 @@ console.log(semafaro);
 click
 </button>
 
-</body>
+<script>
 
 const botao = document.querySelector("#btn");
 
 botao.addEventListener('click', (e) => {
 return window.alert("Welcome!")
 });
+
+</script>
+
+</body>
