@@ -123,3 +123,19 @@ carYear: 2018
 var semafaro = (verde) === verde ? "Pode passar" : "PARE!"
 
 console.log(semafaro);
+
+// ==================================================
+
+<body>
+
+<button id="btn">
+click
+</button>
+
+</body>
+
+const botao = document.querySelector("#btn");
+
+botao.addEventListener('click', (e) => {
+return window.alert("Welcome!")
+});
