@@ -42,3 +42,11 @@ EventListener
 # Design Pattern
 
 Factory
+
+# Importante saber 
+
+Indentação
+
+Encapsulamento
+
+Comentários 
