@@ -7,3 +7,7 @@ for(let i = 0;
 // o valor de ZERO atribuido a i, corresponde ao valor inicial 
 // i++ vai encrimentar por 1, e sempre que i for menor que 5, sera encrementado 1 no valor,
 // no nosso caso queremos 5 repeticoes.
+
+for(let nome = 0; nome < 5; nome++){
+console.log("meu nome é Jean")
+}
