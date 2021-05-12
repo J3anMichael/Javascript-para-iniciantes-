@@ -14,7 +14,7 @@
 let person = {
     name: "Jean",
     age: 24,
-    speach: function(){
+    speech: function(){
         console.log("Hello World!") 
     },
     sayName: function(){ // metodo 
@@ -25,12 +25,12 @@ let person = {
     }
 };
 
-person.speach();
+person.speech(); // Chamando a função speech
 
-person.sayName();
+person.sayName(); // Chamando a função sayName
 
-console.log(person.age);
+console.log(person.age); // Chamando o age do nosso objeto
 
-person.birth();
+person.birth(); // Fez aniversario 
 
-console.log(person.age);
+console.log(person.age); // Novo valor 
