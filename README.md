@@ -28,8 +28,17 @@ Template literals
 
 This
 
-For
+# Estruturas de repetição 
 
+For 
+
+While
+
+Do...While
+
+For...In
+
+For...Off
 
 # EVENTOS
 
