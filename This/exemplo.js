@@ -34,3 +34,21 @@ console.log(person.age); // Chamando o age do nosso objeto
 person.birth(); // Fez aniversario 
 
 console.log(person.age); // Novo valor 
+
+
+// Você pode utilizar person. ao inves de this., o resultado será o mesmo.
+
+let person = {
+    name: "Jean",
+    age: 24,
+    speech: function(){
+        console.log("Hello World!") 
+    },
+    sayName: function(){ // metodo 
+        console.log("My name is " + person.name);
+    },
+    birth: function(){ // metodo fazer aniversario 
+        person.age += 1; // o this vai acessar o valor ja atribuido a age e em seguida vai atribuir o novo valor
+    }
+};
+
