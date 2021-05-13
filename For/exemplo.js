@@ -11,3 +11,14 @@ for(let i = 0;
 for(let nome = 0; nome < 5; nome++){
 console.log("meu nome é Jean")
 }
+
+
+
+// WHILE
+
+let salario = 1500
+
+while (salario < 2500){
+salario += 250;
+  console.log(salario)
+} 
