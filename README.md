@@ -70,3 +70,5 @@ Comentários
 # Orientado a Objetos
 
 Instanciando 
+
+Prototype
