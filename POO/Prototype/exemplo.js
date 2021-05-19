@@ -33,3 +33,20 @@ RetanguloV2.prototype.area = function () {
 
 var r3 = new RetanguloV2(3, 4);  // nova instancia 
 var r4 = new RetanguloV2(7, 2);  // nova instancia
+
+
+
+// ======================================================
+
+function Alunos(nomes){
+this.nomes = nomes;
+}
+
+Alunos.prototype.novo = function(){
+return this.nomes;
+}
+
+var aluno1 = new Alunos(['Jean', 'Richard', 'Lunara' ]);
+
+// No terminal: aluno.novo();
+// output: ['Jean', 'Richard', 'Lunara' ]
