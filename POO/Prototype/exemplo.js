@@ -1,37 +1,35 @@
-function SalaAula(alunos){
-    this.alunos = alunos
+function Retangulo(altura, largura) {
+    this.altura = altura;
+    this.largura = largura;
+    this.area = function () {
+        return this.altura * this.largura;
+    };
 }
-SalaAula.prototype = {               // Prototype basicamente  add novas propriedades/metodos ao nosso novo Obj
-    adicionarAlunos: function(aluno){
-        this.alunos.push(aluno)
-    }
+
+var r1 = new Retangulo(3, 4);
+var r2 = new Retangulo(7, 2);
+
+
+terminal: r1.area()
+// output: 12
+
+
+
+// ======================================================
+
+
+// Agora utilizando prototype
+
+
+
+function RetanguloV2(altura, largura) {
+    this.altura = altura;
+    this.largura = largura;
 }
+//  vamos pegar a funcao area e acessar a propiedade prototype e nesse obj vamos definir uma nova propriedade area que vai ser nossa funcao de calcular area
+RetanguloV2.prototype.area = function () {
+    return this.altura * this.largura;
+};
 
-const minhaSala = new SalaAula(['Jean', 'Lunara'])
-
-minhaSala.adicionarAlunos('Richard')
-
-console.log(minhaSala.alunos)
-
-// =============================================
-
-function Alunos(nome, idade){
-    this.nome = nome;
-    this.idade = idade;
-    this.add = function(){
-    return this.nome, this,idade;
-      }
-    }
-    
-    var aluno = new Alunos('Jean', 24);
-
-    function AlunosV2(nome, idade){
-        this.nome = nome;
-        this.idade = idade;
-        }
-        AlunosV2.prototype.add = function(){
-     return  this.nome,
-             this.idade
-        };
-
-        var aluno2 = new AlunosV2('Lunara', 28)
+var r3 = new RetanguloV2(3, 4);  // nova instancia 
+var r4 = new RetanguloV2(7, 2);  // nova instancia
