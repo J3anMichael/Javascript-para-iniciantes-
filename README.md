@@ -35,6 +35,8 @@ Template literals
 
 This
 
+Clousures
+
 # Estruturas de repetição 
 
 For 
