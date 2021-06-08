@@ -140,6 +140,17 @@ botao.addEventListener('click', (e) => {
 return window.alert("Welcome!")
 });
 
+
+// ==================================================
+
+
+
+const array = [
+ {name: "Jean", age: 24, city: "Curitiba"},
+ {name: "Lunara", age: 28, city: "Rio de Janeiro"}
+ ];
+
+console.log(array.map(details => details.length));
 </script>
 
 </body>
