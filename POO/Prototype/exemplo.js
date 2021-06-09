@@ -50,3 +50,22 @@ var aluno1 = new Alunos(['Jean', 'Richard', 'Lunara' ]);
 
 // No terminal: aluno.novo();
 // output: ['Jean', 'Richard', 'Lunara' ]
+
+
+
+// ======================================================
+
+
+function Computador(teclado, windows){
+
+this.teclado = teclado;
+this.windows = windows;
+}
+
+Computador.prototype.Valor = function(){
+
+return console.log("Comprei meu teclado por R$:" + `${this.teclado}` + "e meu windows por R$" + `${this.windows}`)
+}
+
+let pc = new Computador(300, 150);
+
