@@ -1,0 +1,6 @@
+
+var idade = prompt("Digite sua idade");
+
+document.write("Eu tenho " + idade + " anos");
+
+document.write("<img src='https://media.giphy.com/media/fwbZnTftCXVocKzfxR/giphy.gif />")
