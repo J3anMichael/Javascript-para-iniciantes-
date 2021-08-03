@@ -21,6 +21,8 @@ Operador Spread
 
 Ternary Operator
 
+Entrada e Saída 
+
 Desestruturação
 
 Arrow Function
