@@ -20,3 +20,62 @@ function App() {
 }
 
 export default App;
+
+
+// =========================================
+
+import React from 'react';
+
+const Equipe = (props) => {
+  return (
+    <div>
+        <Sobre 
+        nome={props.nome} 
+        cargo={props.cargo} 
+        idade={props.idade}
+        />
+
+        <Social fb={props.facebook}/>
+        <hr/>
+    </div>
+  );
+} 
+
+const Sobre = (props) => {
+  return (
+      <div>
+            <h2>Bom dia, me chamo {props.nome}</h2>
+            <h3>Idade: {props.idade}</h3>
+            <h3>Cargo: {props.cargo}</h3>
+      </div>
+  );
+}
+
+const Social = (props) => {
+  return (
+      <div>
+        <a href={props.fb}>Facebook </a>
+        <a>Twitter </a>
+        <a>LinkedIn </a>
+      </div>
+  );
+}
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Conheça nossa equipe:</h1>
+      <hr/>
+      <Equipe 
+      nome="Jean" 
+      cargo="Desenvolvedor" 
+      idade="24" 
+      facebook="https://google.com"
+      />
+      <Equipe nome="Rafael" cargo="Designer" idade="22" />
+
+    </div>
+  );
+}
+
+export default App;
