@@ -76,3 +76,7 @@ Comentários
 Instanciando 
 
 Prototype
+
+# React
+
+Class Components
