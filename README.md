@@ -57,6 +57,8 @@ QuerySelector
 
 getElementById
 
+Modificando HTML
+
 EventListener
 
 # Design Pattern
