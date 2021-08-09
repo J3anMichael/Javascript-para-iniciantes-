@@ -36,3 +36,21 @@ return day * 24
 }
 
 console.log(DayToHours(31))  // 744 horas
+
+
+// Desafio - 4
+
+// Escreva uma lista de Cidades e seus Estados e retorne no console apenas uma coluna de cidade.
+
+
+let cidades = [ 
+{Cidade: "Curitiba", Estado: "Paraná"},
+{Cidade: "Rio de Janeiro", Estado: "Rio de Janeiro"},
+{Cidade: "Florianópolis", Estado: "Santa Catarina"},
+];
+
+let filtro = cidades.filter(function(element, index){
+return element.Estado.includes("de");
+});
+
+console.log(filtro); // [{  Cidade: "Rio de Janeiro",Estado: "Rio de Janeiro"}]
