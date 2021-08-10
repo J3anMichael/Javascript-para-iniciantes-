@@ -54,3 +54,12 @@ return element.Estado.includes("de");
 });
 
 console.log(filtro); // [{  Cidade: "Rio de Janeiro",Estado: "Rio de Janeiro"}]
+
+
+// Desafio - 5
+
+// Escreva uma função que retorne números aleatórios entre 0 e 100.
+
+const random = (num) => Math.ceil(Math.random() * num);
+
+console.log(random(100))
