@@ -63,3 +63,15 @@ console.log(filtro); // [{  Cidade: "Rio de Janeiro",Estado: "Rio de Janeiro"}]
 const random = (num) => Math.ceil(Math.random() * num);
 
 console.log(random(100))
+
+
+// Desafio - 6
+
+// Crie um array de numérico e retorne-o com valores multiplicados
+
+
+const num = [1, 2, 3, 4, 5];
+
+const double = num.map((number) => number * 2);
+
+console.log(double) // [2, 4, 6, 8, 10]
